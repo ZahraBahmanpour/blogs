@@ -1,6 +1,5 @@
 const BlogList = (props) => {
   const { blogs, title } = props;
-  console.log(props);
   return (
     <div className="blogs-list">
       <h2>{title}</h2>
